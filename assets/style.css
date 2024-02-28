@@ -28,7 +28,12 @@ footer {
 a {
   color: #336c6a;
 }
-
+h3 {
+  padding-bottom: 2%;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #336c6a;
+}
 .center {
   text-align: center;
 }
