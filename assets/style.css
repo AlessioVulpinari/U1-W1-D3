@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100..900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #336c6a;
+}
+
+.center {
+  text-align: center;
+}
+
+.notcenter {
+  text-align: justify;
+}
+
+#description {
+  width: 100%;
+  color: #336c6a;
+  background-color: #fdfbf1;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #feeec4;
+  margin-bottom: 2%;
+}
+
+#text {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#focaccia {
+  width: 100%;
+  border-radius: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  width: 60%;
+  height: 60%;
+  padding-bottom: 5%;
+}
+
+#link {
+  text-align: left;
+  padding-left: 2%;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: #feeec4;
+}
+
+#link p {
+  color: #c46c40;
+  font-weight: bold;
+}
